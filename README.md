@@ -18,7 +18,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Deploy to GH Pages
 
-run `ng deploy --base-href=CSC196W-Assignments` to build the project and upload it into GitHub Pages. This project contains [Angular CLI GHPages](https://github.com/angular-schule/angular-cli-ghpages/)!
+run `ng deploy --base-href=CSC196W` to build the project and upload it into GitHub Pages. This project contains [Angular CLI GHPages](https://github.com/angular-schule/angular-cli-ghpages/)!
 
 ## Running unit tests
 
