@@ -1,6 +1,8 @@
-# CSC196WAssignments
+# CSC196W Assignments
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+
+Using this website to put all CSC 196W assignments in.
 
 ## Development server
 
@@ -13,6 +15,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Deploy to GH Pages
+
+run `ng deploy --base-href=CSC196W-Assignments` to build the project and upload it into GitHub Pages. This project contains [Angular CLI GHPages](https://github.com/angular-schule/angular-cli-ghpages/)!
 
 ## Running unit tests
 
