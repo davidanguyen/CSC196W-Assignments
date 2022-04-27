@@ -1,0 +1,39 @@
+.navbar {
+    height: 100px;
+    position: -webkit-sticky; /* SAFARI */
+    position: sticky;
+    background: rgb(255, 255, 255);
+}
+
+.navbar-brand {
+    position: relative;
+    left: 100px;
+    height: 100px;
+
+}
+
+#logo {
+    position: relative;
+    top: 25px;
+    left: 10px;
+    width: 102px;
+    height: 50px;
+    transform: scale(3.7)
+}
+
+.navbar-end {
+    position: relative;
+    top: 0px;
+    right: 40px;
+}
+
+.navbar-center {
+    width: 96%;
+    display: flex;
+    justify-content: center;
+}
+
+#fontBarBig {
+    font-size: large;
+    font-weight: 500;
+}
