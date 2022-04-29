@@ -1,0 +1,22 @@
+#footerLogo {
+    width: 96px;
+    height: 96px;
+}
+
+#centerContainer {
+    position: relative;
+    bottom: 15px;
+}
+
+#madeMe {
+    font-size: large;
+}
+
+#col2 {
+    position: relative;
+    right: auto;
+}
+
+#col2Links img {
+    margin: 3px;
+}
