@@ -1,13 +1,8 @@
 <nav class="navbar is-fixed" style="border-bottom: 1px solid #a8b5d1">
     <!-- Logo -->
     <div class="navbar-brand is-align-items-center">
-        <a class="navbar-item force-center" href="../home/home.component.html" style="left: 30px;">
+        <a class="navbar-item force-center" routerLink="/" style="left: 30px;">
             <img src="assets/logoLong.png" alt="D.Nguyen">
-        </a>
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
         </a>
     </div>
 
@@ -15,7 +10,7 @@
         <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
             <!-- Home -->
             <div class="navbar-item">
-                <a class="navbar-item" href="#">
+                <a class="navbar-item" routerLink="/">
                     Home
                 </a>
 
@@ -27,7 +22,7 @@
                     <div class="navbar-dropdown is-boxed">
                         <a class="navbar-item" href="../"> Assignment 2A </a>
                         <a class="navbar-item" href="../"> Assignment 3 </a>
-                        <a class="navbar-item" href="../"> Assignment 4 </a>
+                        <a class="navbar-item" routerLink="assignment4"> Assignment 4 </a>
                         <a class="navbar-item" href="../"> Assignment 5 </a>
                         <a class="navbar-item" href="../"> Assignment 6 </a>
                         <a class="navbar-item" href="../"> Assignment 7 </a>
@@ -42,7 +37,7 @@
                 </div>
 
                 <!-- About Me -->
-                <a class="navbar-item" href="#">
+                <a class="navbar-item" routerLink="aboutme">
                     About Me
                 </a>
             </div>
